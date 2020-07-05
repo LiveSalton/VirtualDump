@@ -19,9 +19,12 @@ import android.view.MotionEvent;
 
 import com.salton123.log.XLog;
 
+import hugo.weaving.DebugLog;
+
 /**
  * @author Lody
  */
+@DebugLog
 public class InstrumentationDelegate extends Instrumentation {
 
     protected Instrumentation base;

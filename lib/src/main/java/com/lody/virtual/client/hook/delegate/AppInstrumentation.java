@@ -25,11 +25,13 @@ import com.lody.virtual.os.VUserHandle;
 import com.lody.virtual.server.interfaces.IUiCallback;
 import com.salton123.log.XLog;
 
+import hugo.weaving.DebugLog;
 import mirror.android.app.ActivityThread;
 
 /**
  * @author Lody
  */
+@DebugLog
 public final class AppInstrumentation extends InstrumentationDelegate implements IInjector {
 
     private static final String TAG = AppInstrumentation.class.getSimpleName();
